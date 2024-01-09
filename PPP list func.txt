@@ -7,5 +7,3 @@ const GetPPPList = () => {
         console.log(typeof salary);
         SetPPPFinalAmount(FinalAmount.toFixed(2));
     }
-
-    line added
