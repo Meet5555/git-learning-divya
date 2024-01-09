@@ -1,0 +1,9 @@
+const GetPPPList = () => {
+        SetCardShowOne(true);
+        let amount = PPPFactorCountryTwo / PPPFactorCountryOne;
+        let FinalAmount = salary * amount;
+        console.log(FinalAmount);
+        console.log(amount);
+        console.log(typeof salary);
+        SetPPPFinalAmount(FinalAmount.toFixed(2));
+    }

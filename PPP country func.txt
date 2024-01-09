@@ -1,0 +1,10 @@
+const SelectPPPCountryTwo = async (e) => {
+        let country_two = e;
+        const url = `https://api-generator.retool.com/Q5utmZ/data?Country_Name=${country_two}`;
+        const result = await fetch(url);
+        const data = await result.json();
+        SetDisplayCountryTwo(data[0].Country_Name)
+        SetPPPFactorCountryTwo(data[0].Year_2021)
+        console.log(PPPFactorCountryTwo);
+
+    }
